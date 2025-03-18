@@ -29,8 +29,8 @@ function Header() {
                                 <div className={styles.accountRight}>
                                     <span className={styles.soDuAccount}>SỐ DƯ: <strong>0Đ</strong></span>
                                     <p className={styles.textAccount}>
-                                        <a href="">Đăng nhập</a>/
-                                        <a href="">Đăng ký</a>
+                                        <Link to='/sign-in'>Đăng nhập</Link>/
+                                        <Link to='/sign-up'>Đăng ký</Link>
                                     </p>
                                 </div>
                             </div>

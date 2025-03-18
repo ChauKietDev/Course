@@ -7,7 +7,7 @@
 }
 
 
-.boxSignUp {
+.boxSignIn {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -90,7 +90,7 @@
     margin: 20px 0px 20px 0px;
 }
 
-.btnSignup button {
+.btnSignIn button {
     background: none;
     border: none;
     width: 100%;
@@ -101,26 +101,39 @@
     margin-top: 20px;
     font-size: 20px;
 }
-
-.btnSignup button:hover {
+.btnSignIn button:hover{
     background-color: #0479b8;
     transition: 0.2s linear;
 }
-
-.signInHere {
+.signUpHere{
     text-align: center;
     margin: 0;
     margin-top: 10px;
 }
-
-.signInHere a {
+.signUpHere a{
     text-decoration: none;
     color: #333;
     font-weight: 600;
     font-size: 14px;
 }
 
-.signInHere a:hover{
+.signUpHere a:hover{
     border-bottom: 1px solid #333;
+    transition: 0.2s linear;
+}
+
+.forget{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.forget a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #008bdd;
+}
+
+.forget a:hover{
+    border-bottom: 1px solid #008bdd;
     transition: 0.2s linear;
 }
