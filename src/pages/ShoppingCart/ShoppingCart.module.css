@@ -1,0 +1,172 @@
+.title {
+    font-size: 24px;
+}
+
+.tableCart {
+    width: 100%;
+}
+
+.boxProduct {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.tableCart thead {
+    border-bottom: 1px solid #b5acac;
+}
+
+.tableCart th:nth-child(1),
+.tableCart td:nth-child(1) {
+    width: 60%;
+    /* Cột Sản phẩm chiếm 50% */
+}
+
+.tableCart th:nth-child(2),
+.tableCart td:nth-child(2) {
+    width: 20%;
+    /* Cột Giá chiếm 25% */
+}
+
+.tableCart th:nth-child(3),
+.tableCart td:nth-child(3) {
+    width: 20%;
+    /* Cột Tạm tính chiếm 25% */
+}
+
+.tableCart thead th {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.tableCart tbody td {
+    padding: 15px 0px;
+    /* Tăng khoảng cách trong các ô */
+}
+
+
+.tableCart tr td {
+    border-bottom: 1px solid grey;
+}
+
+.tableCart tr td img {
+    width: 60px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.tableCart tr td span {
+    margin-left: 10px;
+}
+
+.btnThanhToan {
+    width: 100%;
+    background-color: #008bdd;
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btnBackHome {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.btnBackHome a {
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.btnBackHome a:hover {
+    border-bottom: 1px solid #008bdd;
+}
+
+.rowTamTinh,
+.rowTong {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rowTamTinh p,
+.rowTong p {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.rowTamTinh h3,
+.rowTong h3 {
+    font-size: 24px;
+}
+
+.boxThanhToan {
+    padding: 20px 30px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.titleThanhToan h1 {
+    margin: 0 auto;
+    color: #008bdd;
+}
+
+.boxBottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 20px 30px 20px;
+}
+
+.boxBottom button {
+    padding: 0px 25px;
+    font-size: 18px;
+    height: 40px;
+    border: none;
+    font-weight: 500;
+    border-radius: 10px;
+    background-color: #E66C23;
+    color: #fff;
+    /* padding: 5px 0px; */
+}
+
+.showMoney p {
+    margin: 0;
+}
+
+.showMoney h4 {
+    color: rgb(255, 102, 0);
+}
+
+.tableProduct th:nth-child(1) {
+    width: 75%;
+}
+
+.tableProduct th:nth-child(2) {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.tableProduct {
+    width: 100%;
+}
+
+.tableProduct img {
+    width: 60px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.tableProduct span {
+    font-weight: 400;
+}
+
+.tableProduct th:nth-child(2) {
+    width: 25%;
+}

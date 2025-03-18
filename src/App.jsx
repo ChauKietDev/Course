@@ -6,6 +6,8 @@ import ProductDetail from "./pages/ProductDetail/ProductDetail"
 import SignUp from './pages/SignUp/SignUp'
 import SignIn from './pages/SignIn/SignIn'
 import TranferBank from './pages/TranferBank/TranferBank'
+import ForgetPassword from './pages/ForgetPassword/ForgetPassword'
+import ShoppingCart from './pages/ShoppingCart/ShoppingCart'
 
 function App() {
 
@@ -18,10 +20,11 @@ function App() {
         <Route path='/sign-up' element={<SignUp />} />
         <Route path='/sign-in' element={<SignIn />} />
         <Route path='/chuyen-khoan' element={<TranferBank />} />
+        <Route path='/quen-mat-khau' element={<ForgetPassword />} />
+        <Route path='/gio-hang' element={<ShoppingCart />} />
       </Routes>
     </>
   )
-
 }
 
 export default App

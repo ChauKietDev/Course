@@ -36,11 +36,11 @@ function Header() {
                             </div>
                         </div>
                         <div className="col-lg-2">
-                            <div className={styles.boxGioHang}>
+                            <Link to='/gio-hang' className={styles.boxGioHang}>
                                 <FaShoppingCart className={styles.iconCart} />
                                 <p>Giỏ hàng</p>
                                 <span>0</span>
-                            </div>
+                            </Link>
                         </div>
                     </div>
                 </header>

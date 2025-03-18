@@ -80,6 +80,8 @@
     display: flex;
     justify-content: right;
     align-items: center;
+    text-decoration: none;
+    color: #333;
 }
 
 .boxGioHang p {
