@@ -5,6 +5,7 @@ import Category from "./pages/Category/Category"
 import ProductDetail from "./pages/ProductDetail/ProductDetail"
 import SignUp from './pages/SignUp/SignUp'
 import SignIn from './pages/SignIn/SignIn'
+import TranferBank from './pages/TranferBank/TranferBank'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
         <Route path='/productDetail' element={<ProductDetail />} />
         <Route path='/sign-up' element={<SignUp />} />
         <Route path='/sign-in' element={<SignIn />} />
+        <Route path='/chuyen-khoan' element={<TranferBank />} />
       </Routes>
     </>
   )

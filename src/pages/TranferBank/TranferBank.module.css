@@ -1,0 +1,89 @@
+.chuyenKhoan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.boxChuyenKhoan {
+    display: flex;
+    width: 1000px;
+    height: 800px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+.boxLeft {
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    background-color: #333;
+    padding-bottom: 150px;
+}
+
+.boxImage{
+     width: 250px;
+     height: 150px;
+     margin: 20px auto;
+}
+
+.boxImage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.boxRight h1 {
+    font-size: 30px;
+    color: #008bdd;
+}
+
+.boxRight {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.infoTranferBank {
+    list-style: none;
+    padding: 0;
+    margin: 0px 20px;
+}
+
+.infoTranferBank p {
+    margin: 0;
+    font-size: 20px;
+}
+
+.infoTranferBank li svg {
+    font-size: 30px;
+    margin-right: 15px;
+    color: #fff;
+}
+
+.infoTranferBank li {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+    padding: 10px 0px;
+    color: #fff;
+}
+
+.infoTranferBank li span{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.nDUppercase{
+    font-weight: 600;
+    text-transform: uppercase;
+    color: yellow;
+    font-size: 20px;
+}
+.colorMoney{
+    color: #008bdd;
+    font-weight: 700 !important;
+}

@@ -101,3 +101,40 @@
     text-decoration: none;
     font-weight: 500;
 }
+
+.inputNapTien input {
+    width: 100%;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid #c1c1c1;
+}
+
+.showTien {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 20px;
+}
+
+.showTien p {
+    margin: 0;
+}
+
+.moneyLeft,
+.moneyRight {
+    font-size: 18px;
+}
+
+.moneyLeft span,
+.moneyRight span {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.moneyLeft span {
+    color: red;
+}
+
+.moneyRight span {
+    color: blue;
+}
