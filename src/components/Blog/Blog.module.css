@@ -1,7 +1,22 @@
-.btnXemThem a{
+.btnXemThem a {
     text-decoration: none;
     padding: 8px 25px;
     background-color: #008bdd;
     color: #fff;
     border-radius: 20px;
+}
+
+.blog {
+    margin-top: 40px;
+}
+
+.blog h1 {
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 30px;
+    background-color: #008bdd;
+}
+.blog img{
+    height: 220px;
+    object-fit: cover;
 }

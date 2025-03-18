@@ -49,11 +49,12 @@ const listBlog = [
 
 function Blog() {
     return (
-        <div className="container" style={{marginTop: '40px'}}>
+        <div className={clsx("container", styles.blog)}>
+            <h1>BLOG</h1>
             <div className="row">
                 {
                     listBlog.map(blog => (
-                        <div className="col-lg-4" key={blog.id}>
+                        <div className="col-lg-4 mt-3" key={blog.id}>
                             <div className="card">
                                 <img src={blog.image} className="card-img-top" alt="" />
                                 <div className={clsx("card-body", styles.btnXemThem)}>
