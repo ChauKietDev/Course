@@ -1,0 +1,7 @@
+.btnXemThem a{
+    text-decoration: none;
+    padding: 8px 25px;
+    background-color: #008bdd;
+    color: #fff;
+    border-radius: 20px;
+}

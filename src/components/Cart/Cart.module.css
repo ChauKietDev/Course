@@ -1,0 +1,77 @@
+.boxImage {
+    height: 200px;
+    overflow: hidden;
+}
+
+.cart p {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.cartPrice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartPrice h5 {
+    color: red;
+}
+
+.cartPrice h6 {
+    margin-left: 10px;
+    color: grey;
+}
+
+.editA {
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s linear
+}
+
+.btnMuaNgay {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    color: #008bdd;
+    width: 70%;
+    margin: 10px auto;
+    padding: 10px 0px;
+    border-radius: 100px;
+    border: 1px solid #008bdd;
+}
+
+.editA a:hover {
+    background-color: #008bdd;
+    color: #fff;
+    transition: 0.3s linear;
+}
+
+.editA img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.editA {
+    border: none !important;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    /* Bóng nhẹ mặc định */
+}
+
+.cart:hover img {
+    transform: scale(1.2);
+}
+
+.editA:hover {
+    transition: 0.2s linear;
+    transform: translateY(-2px);
+    /* Nổi lên 5px */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    /* Bóng đậm hơn */
+}

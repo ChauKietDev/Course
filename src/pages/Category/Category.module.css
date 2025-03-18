@@ -1,0 +1,41 @@
+.boxListCourse{
+    list-style: none;
+    box-shadow: 0px 4px 10px rgb(0, 0, 0, 0.1);
+    padding: 0;
+    border-radius: 5px;
+}
+.boxListCourse a{
+    padding: 0;
+    margin: 0;
+}
+.boxListCourse li{
+    list-style: none;
+    padding: 10px 40px;
+}
+.boxListCourse li:hover {
+    color: #fff;
+    background-color: #008bdd;
+    transition: 0.3s linear;
+}
+ .boxListCourse li:hover a{
+    color: #fff;
+    transition: 0.1s linear;
+ }
+
+
+.boxListCourse a{
+    text-decoration: none;
+    color: #333;
+}
+.active li {
+    color: #fff !important;
+    background-color: #008bdd;
+}
+.titleBoxCategory{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.titleBoxCategory h2{
+    font-size: 20px;
+}

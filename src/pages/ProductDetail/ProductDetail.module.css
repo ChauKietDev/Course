@@ -1,0 +1,171 @@
+.detailTop {
+    margin: 40px 0px;
+}
+
+.detailTop h1 {
+    color: #fff;
+    font-size: 40px;
+}
+
+.detailTop p {
+    color: #fff;
+    margin: 0;
+    margin: 15px 0px;
+}
+
+.showViewAndSell {
+    display: flex;
+    justify-content: center;
+    justify-content: left;
+    color: #fff;
+}
+
+/* box mua hang */
+.thumbnail {
+    width: 100%;
+    position: relative;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.iconPlay {
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    z-index: 9999;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* action mua hang */
+.actionMuaHang .price {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.actionMuaHang .price h3 {
+    margin-left: 10px;
+    font-size: 18px;
+    color: grey;
+}
+
+.addCart {
+    display: flex;
+    justify-content: space-between;
+}
+
+.addCart .btnAddCart {
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: orangered;
+    color: #fff;
+}
+
+.btnAddCart:hover {
+    background-color: rgb(247, 77, 15, 0.7);
+    transition: 0.3s linear;
+}
+
+.iconFavourite {
+    padding: 15px 20px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.iconFavourite svg {
+    font-size: 24px;
+    color: #333;
+}
+
+.iconFavourite:hover {
+    background-color: #008bdd;
+    border: 1px solid #008bdd;
+    transition: 0.3s linear;
+}
+
+.iconFavourite:hover svg {
+    color: #fff;
+}
+
+.btnMuaNgay {
+    display: flex;
+    justify-content: center;
+    background-color: #008bdd;
+    padding: 15px 0px;
+    text-align: center;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.btnMuaNgay:hover{
+    background-color: #53baf6;
+    transition: 0.3s linear;
+}
+
+.btnMuaNgay a {
+    font-weight: 600;
+}
+
+.detailBottom{
+    margin-top: 10px;
+}
+
+.detailBottom p{
+    margin: 0;
+    font-size: 16px;
+}
+.boxMuaHang{
+    position: relative;
+}
+.muaHang{
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    top: 30%;
+    left: 0;
+}
+/* Giới thiệu khoá học */
+
+.contentGioiThieu, .contentCourse {
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+}
+.contentCourse {
+    margin-top: 20px;
+}
+.contentCourse h4{
+    font-size: 20px;
+}
+.productSimilar{
+    margin-top: 20px !important ;
+}
+.productSimilar h4{
+    font-size: 24px;
+}
