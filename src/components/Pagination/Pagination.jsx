@@ -1,7 +1,7 @@
 import { FaAngleDoubleLeft, FaAngleDoubleRight } from "react-icons/fa"
 import { useState } from "react";
 import CartCategory from "../Cart/CartCategory"; // Import component hiển thị danh sách
-import styles from "../Pagination/pagination.module.css"
+import styles from "../../components/Pagination/pagination.module.css"
 
 function Pagination({ data, itemsPerPage = 3 }) {
     const [currentPage, setCurrentPage] = useState(1);
