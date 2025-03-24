@@ -8,6 +8,12 @@ import SignIn from './pages/SignIn/SignIn'
 import TranferBank from './pages/TranferBank/TranferBank'
 import ForgetPassword from './pages/ForgetPassword/ForgetPassword'
 import ShoppingCart from './pages/ShoppingCart/ShoppingCart'
+import Profile from './pages/Profile/Profile'
+import Individual from "./pages/Profile/Item/Individual"
+import CourseFavourite from "./pages/Profile/Item/CourseFavourite"
+import CoursePayment from "./pages/Profile/Item/CoursePayment"
+import ChangePassword from './pages/Profile/Item/ChagePassword'
+import HistoryPayment from "./pages/Profile/Item/HistoryRecharge"
 
 function App() {
 
@@ -22,6 +28,13 @@ function App() {
         <Route path='/chuyen-khoan' element={<TranferBank />} />
         <Route path='/quen-mat-khau' element={<ForgetPassword />} />
         <Route path='/gio-hang' element={<ShoppingCart />} />
+        <Route path='/ho-so/*' element={<Profile />} >
+          <Route index path="ca-nhan" element={<Individual />} />
+          <Route path='doi-mat-khau' element={<ChangePassword />} />
+          <Route path='yeu-thich' element={<CourseFavourite />} />
+          <Route path='da-mua' element={<CoursePayment />} />
+          <Route path='lich-su-nap-tien' element={<HistoryPayment />} />
+        </Route>
       </Routes>
     </>
   )

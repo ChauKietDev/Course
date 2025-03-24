@@ -1,0 +1,33 @@
+.coursePayment {
+    width: 100%;
+}
+.coursePayment th:nth-child(1){
+    width: 55%;
+}
+.coursePayment th:nth-child(2){
+    width: 15%;
+}
+.coursePayment th:nth-child(3){
+    width: 15%;
+}
+.coursePayment th:nth-child(4){
+    width: 15%;
+}
+.coursePayment td img{
+    width: 60px;
+    height: 50px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.coursePayment td span{
+    margin-left: 10px;
+}
+.coursePayment td button {
+    border: none;
+    border-radius: 10px;
+    background-color: orange;
+    padding: 7px 20px;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}

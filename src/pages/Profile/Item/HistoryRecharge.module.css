@@ -1,0 +1,32 @@
+.tabletRecharge {
+    width: 100%;
+}
+
+.tabletRecharge th {
+    font-size: 14px;
+}
+
+.tabletRecharge td{
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.tabletRecharge th:nth-child(1) {
+    width: 10%;
+}
+
+.tabletRecharge th:nth-child(2) {
+    width: 20%;
+}
+
+.tabletRecharge th:nth-child(3) {
+    width: 20%;
+}
+
+.tabletRecharge th:nth-child(4) {
+    width: 20%;
+}
+
+.tabletRecharge th:nth-child(5) {
+    width: 30%;
+}

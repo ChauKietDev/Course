@@ -75,7 +75,7 @@ function Category() {
                 <div className="row mt-4">
                     <div className="col-lg-3">
                         <ul className={styles.boxListCourse}>
-                            <Link className={styles.active}><li>Tất cả khoá học</li></Link>
+                            <Link className={styles.active}><li style={{borderTopLeftRadius: '5px', borderTopRightRadius: '5px'}}>Tất cả khoá học</li></Link>
                             <Link><li>Khoá học kiếm tiền MMO</li></Link>
                             <Link><li>Chạy quảng cáo Facebook</li></Link>
                             <Link><li>Lập trình</li></Link>
