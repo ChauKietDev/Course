@@ -61,7 +61,7 @@ function Nav() {
             <div className="container">
                 <div className="row">
                     <div className={clsx("col-lg-3", styles.boxShow)}>
-                        <p className={styles.boxDanhMuc}>
+                        <span className={styles.boxDanhMuc}>
                             <FaBars />
                             <span><Link>DANH MỤC SẢN PHẨM</Link></span>
                             <FaAngleDown />
@@ -75,7 +75,7 @@ function Nav() {
                                     ))
                                 }
                             </ul>
-                        </p>
+                        </span>
                     </div>
 
                     <div className="col-lg-9">
@@ -95,7 +95,7 @@ function Nav() {
 
 
             {/* <!-- Modal --> */}
-            <div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div className="modal-dialog">
                     <div className="modal-content">
                         <div className="modal-header">
